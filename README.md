@@ -3,20 +3,51 @@
 **Repository Name Suggestion**: `academic-doc-generator`  
 **Description**: A React-based tool for generating and exporting realistic academic document templates (Tuition Statement, Transcript, Schedule) for UI testing, verification flow development, and educational purposes.
 
-[![Deploy to Cloudflare Pages](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/022122/academic-doc-generator)
+**🔗 Live Demo**: [https://acagen.suck-dick.tech/](https://acagen.suck-dick.tech/)
+
+[English README](README_EN.md)
+
+## 🌐 Deployment (部署指南)
+
+推荐使用 **Cloudflare Pages** 进行免费托管。
+
+1.  **Fork 本仓库**到你的 GitHub。
+2.  登录 [Cloudflare Dashboard](https://dash.cloudflare.com/)。
+3.  进入 **Workers & Pages** -> **Create Application** -> **Pages** -> **Connect to Git**。
+4.  选择你刚刚 Fork 的仓库。
+5.  **构建设置 (Build settings)** (通常会自动检测):
+    *   **Framework preset**: `Vite`
+    *   **Build command**: `npm run build`
+    *   **Build output directory**: `dist`
+6.  **⚠️ 重要步骤**: 添加环境变量 (Environment Variables):
+    *   `NPM_FLAGS` = `--legacy-peer-deps`
+7.  点击 **Save and Deploy**。
 
 ## 📖 简介 (Introduction)
 
-这是一个基于 **React** + **Vite** + **HeroUI** 构建的现代化 Web 应用，用于快速生成标准的学术文档模板（包括学费单、成绩单、课程表）。支持一键随机生成仿真数据，并提供多种导出格式（单图拼接、ZIP打包）。
+这是一个基于 **React** + **Vite** + **HeroUI** 构建的现代化 Web 应用，用于快速生成标准的学术文档模板。
+
+目前支持生成的文档包括：
+1.  **学费单 (Tuition Statement)**
+2.  **成绩单 (Transcript)**
+3.  **课程表 (Schedule)**
+4.  **录取通知书 (Admission Letter)**
+5.  **在读证明 (Enrollment Certificate)**
+
+支持一键随机生成仿真数据，自定义学校图标，并提供多种导出格式（单图拼接、ZIP打包）。
 
 ## ✨ 特性 (Features)
 
 *   **现代化 UI**: 采用 [HeroUI (NextUI)](https://heroui.com) 构建，支持暗色模式，界面美观流畅。
-*   **一键生成**: 内置 Faker.js，可一键生成逼真的姓名、地址、日期和学籍信息。
+*   **无限画布体验**: 采用 **Framer Motion** 构建的可拖拽、可缩放（Zoomable）无限画布，支持双视图切换（Standard/Extra）。
+*   **一键生成**: 内置 Faker.js，可一键生成逼真的姓名、地址、日期、GPA、学分和课程信息。
+*   **自定义校徽**: 支持上传自定义学校 Logo，实时更新到文档中。
 *   **多种导出**:
-    *   **Horizontal Stitch**: 将三份文档横向拼接为一张长图。
+    *   **Horizontal Stitch**: 将三份核心文档（学费/成绩/课表）横向拼接为一张长图。
     *   **Grid Stitch**: 网格拼接导出。
     *   **ZIP Archive**: 分别导出三张独立图片并打包为 ZIP。
+    *   **独立文档下载**: 支持单独下载录取通知书和在读证明。
+    *   **纯净导出**: 自动处理背景透明度，确保导出的图片背景纯白，无毛玻璃杂色。
 *   **实时预览**: 所见即所得的文档预览效果。
 
 ## 🛠️ 技术栈 (Tech Stack)
